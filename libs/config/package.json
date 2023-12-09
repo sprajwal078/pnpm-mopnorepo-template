@@ -1,0 +1,19 @@
+{
+  "name": "@org/config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist",
+    "start": "tsc -w",
+    "build": "pnpm clean && tsc --build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^5.0.5",
+    "typescript": "^4.9.5"
+  }
+}
