@@ -1,6 +1,9 @@
 import './App.css';
-import RouteLoader from './config/route/RouteLoader';
 
-const App = () => <RouteLoader />;
+const App = () => (
+  <div>
+    <h1>Hello world</h1>
+  </div>
+);
 
 export default App;
