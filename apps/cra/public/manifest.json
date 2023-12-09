@@ -1,6 +1,6 @@
 {
-  "short_name": "template-all",
-  "name": "npx create-react-app project_name --template all",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
